@@ -1,0 +1,24 @@
+{% extends "master.html" %}
+{% load static %}
+{% block style %}
+<link rel="stylesheet" href="{%static 'style.css'%}">
+{% endblock %}
+{% block title %}
+	Test Page
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-sm-2 pt-3 my-2 bg-black text-white">
+            b5-col
+        </div>
+        <div class="col-sm-10 pt-2 my-2 bg-primary text-center">
+            <h1>This is a test page</h1>
+            <p>Resize this responsive page to see the effect!</p>
+        </div>
+        <div>
+            <p1 class="display-1"> Andres Ibarra</p1>
+        </div>
+    </div>
+    
+{% endblock %}
